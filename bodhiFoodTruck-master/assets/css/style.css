@@ -1,0 +1,32 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+.horizontalNavBar>div {
+    background-image: url(http://lorempixel.com/output/abstract-q-c-300-150-4.jpg);
+    position: relative;
+    display: inline-block;
+    float: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.horizontalNavBar>ul {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 45px;
+}
+
+.horizontalNavBar>ul>li {
+    position: relative;
+    display: block;
+    float: right;
+}
+
+.horizontalNavBar>ul>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
